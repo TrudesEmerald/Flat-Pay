@@ -18,9 +18,9 @@
     font-weight: bolder ;
 }
 .navbar{
-    border-bottom: none!important;
+    border-bottom:none!important ;
     display: inline;
-
+    
 }
 .navbar-inverse .navbar-collapse{
     border-color: transparent !important;
@@ -101,6 +101,9 @@
        .dropdown .dropbtn:hover{background-color: tomato;
         }
 
+        .departmental{
+            margin-top: 80px;
+        }
        
 
  .search{
@@ -196,7 +199,7 @@ ol.carousel-indicators{
     text-decoration: none;
 }
 .about img{
-    margin-top: 27px;
+    margin-top: 30px;
     height: 250px;
     width: 100%;
     
@@ -205,6 +208,60 @@ ol.carousel-indicators{
     color: tomato;
     font-size: 25px;
     font-weight: bold;
+}
+.red1{
+    font-weight: bold;
+    color: tomato;
+    font-size: 17px;
+}
+@media (min-width: 768px){
+    .about-body p{
+        font-size: 17px;
+        line-height: normal;
+        padding-top: 5px;
+        letter-spacing: 0.2px;
+        
+     }
+     .about-body {
+        padding-top: 30px;
+         
+      }
+      .checkbox a{
+        margin-left: 600px;
+   
+    }
+     }
+
+
+@media (max-width: 768px){
+    .about-body p{
+        font-size: 12px;
+        line-height: normal;
+        padding-top: 15px;
+        
+     }
+     .about-body {
+       padding-top: 30px;
+        
+     }
+     .red1{
+         font-size: 15px;
+     }
+     .text1{
+         padding: 50px;
+     }
+     .final-text{
+         font-size: 16px;
+     }
+     .checkbox a{
+        margin-left: 100px;
+}
+ }
+
+.green-bg{
+    background: greenyellow;
+    padding: 50px;
+    
 }
 /*=============About Styles End===========*/
 
@@ -260,4 +317,68 @@ ol.carousel-indicators{
 }
 
 
-/*=============Footer Styles End===========*/
+/*=============Payment Pages Styles End===========*/
+
+/*.ab-text>h3{
+    background:linear-gradient((rgba(228, 206, 206, 0.678), (rgba(214, 223, 240, 0.705)), url("../images/img/section-1-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 200px;
+    height: px;
+}*/
+
+.about-us img{
+   
+   height: 300px;
+}
+
+.ab-text>h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.values h4{
+
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.values p{
+    padding-bottom: 60px;
+}
+.values{
+    padding: 30px;
+}
+.img1 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.checkbox a{
+    color: tomato;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.checkbox{
+    padding: 20px;
+}
+.signup1{
+    padding-bottom: 60px;
+}
+.signup1 a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+

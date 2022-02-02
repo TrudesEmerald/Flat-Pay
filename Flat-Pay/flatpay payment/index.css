@@ -1,0 +1,135 @@
+
+
+
+* body{ 
+
+  text-align: center;
+  width: 500px
+
+
+}
+
+/* .header1{
+  font-family:Sans-serif;
+  margin-right: 350px; 
+  color: blue;
+  width: 100%; 
+  
+  } */
+
+ .schoolform1{
+  font-family:Sans-serif;
+  margin-right: 380px;
+   width: 100%; 
+    
+}
+
+.yeargradua1{
+
+  font-family:Sans-serif;
+  margin-right: 350px;
+   width: 100%; 
+    
+}
+
+.convofees{
+  font-family:Sans-serif;
+  margin-right: 350px;
+   width: 100%; 
+
+}
+
+
+  .jambnum1{
+    font-family:Sans-serif;
+    margin-right: 350px;
+ }
+
+ .number1{
+  font-family:Sans-serif;
+  margin-right: 350px;
+   width: 100%; 
+   
+ }
+
+  .accnum1{
+
+    margin-right: 75px;
+
+  }
+
+  
+  
+
+  .studentinput1{
+    
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+   }  
+
+  } 
+  
+
+ .accinput1{
+    justify-content: space-evenly;
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+  }
+
+  .textinput2{
+
+ padding:5px;
+
+  }
+  #submitbutton2:hover, #submitbutton:hover{
+    background-color:green;
+  }
+
+  #submitbutton{
+color:white;
+ background: blue;
+ margin: 20px;
+ width:200px; 
+ margin-left:50px;
+ padding:10px;
+ cursor:pointer;
+ hover:black;
+  opacity:5;
+border-color:blue;
+}
+
+#submitbutton2{
+  margin-left: 40px;
+  padding:10px;
+  color:white;
+ background: black;
+ cursor:pointer;
+ border:black;
+}
+
+  
+
+
+@media screen and (min-width: 500px) {
+  body {
+    width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
